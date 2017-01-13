@@ -32,10 +32,9 @@
 <?php
 namespace frontend\controllers;
 
-use common\lib\ApiCommon;
 use Yii;
-use common\lib\MyCommon;
 use yii\web\Controller;
+use common\lib\ApiCommon;
 
 
 class ApiController extends Controller
