@@ -6,7 +6,7 @@
 
 ![test](https://s23.postimg.org/8y2wom93v/QQ_20170113103359.jpg)
 
-
+![test](https://s27.postimg.org/j5rqlqf1f/QQ_20170113105231.jpg)
 
 
 ## 配置方法
