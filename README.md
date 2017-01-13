@@ -1,29 +1,33 @@
 # EasyApi
 -------
 - 通过简单配置，自动生成简易的在线API文档。[体验点击我](http://123.206.34.198/nll-front/api/index)
-- 本代码适用于较简单的REST风格的项目，可帮助快速生成简易API文档，方便前后端快速开发。较为复杂的接口设计，可根据自己需求对代码进行修改，便于自己的开发。
+- 本代码适用于较简单的REST风格的项目，可帮助随时生成简易API文档，方便前后端快速开发。较为复杂的接口设计，可根据自己需求对代码进行修改，便于自己的开发。
 
 
-
-
-
-
-
-
-
-
-
-
-
+![test](https://s23.postimg.org/8y2wom93v/QQ_20170113103359.jpg)
 
 
 
 
 ## 配置方法
 
+默认使用actionIndex和actionDetail作为前后页，如有不同，大家可自行修改ApiCommon。
+以下是支持的数据类型。
+```
+            'string' => '字符串',
+            'text' => '文本',
+            'int' => '整型',
+            'float' => '浮点型',
+            'boolean' => '布尔型',
+            'date' => '日期',
+            'datetime' => '时间',
+            'array' => '数组',
+            'enum' => '枚举类型',
+            'object' => '对象',
+            "file"=>"文件",
+```
 
-![test](https://s23.postimg.org/8y2wom93v/QQ_20170113103359.jpg)
-
+以下是配置具体实例，我用的是Yii框架，不过代码与框架无关，修改后，任何场景都可使用。
 ```
 <?php
 namespace frontend\controllers;
